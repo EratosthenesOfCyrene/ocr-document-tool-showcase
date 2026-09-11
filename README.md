@@ -177,6 +177,22 @@ The mobile application intentionally focuses on document capture rather than per
 
 Captured projects can then be transferred to the desktop application for further processing.
 
+### Android app overview
+![Android app main screen](./assets/screenshots/android_app_main.jpg)
+
+### Android app project overview
+
+![Android app project overview](./assets/screenshots/android_app_project.jpg)
+
+### List of images in a project
+
+![Images within an Android app project](./assets/screenshots/android_app_project_images.jpg)
+
+### Taking a photo 
+
+![Taking a document photo with the Android app](./assets/screenshots/android_app_take_photo.jpg)
+
+
 ## `.ocrproject` Exchange Format
 
 Desktop and mobile components exchange document projects using a dedicated project format.
