@@ -101,7 +101,7 @@ The aim is not only to extract text, but also to make OCR results easier to insp
 ### Recognized words overview placed over the initial recognized image
 ![Word confidence overview](./assets/screenshots/word_confidence_overview.png)
 
-### Clickable List of low confidence words. 
+### Clickable List of low confidence words 
 ![Word confidence details](./assets/screenshots/word_confidence.png)
 
 ### List of the word frequency within the analyzed text
