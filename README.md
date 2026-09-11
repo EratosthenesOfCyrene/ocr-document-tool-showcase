@@ -132,6 +132,14 @@ The integration uses:
 - deep links
 - a local citation backend
 
+### Word add-in
+![Microsoft Word add-in](./assets/screenshots/word_addin.png)
+
+### Links opened in the OCR & Document Research Tool
+![Cited PDF in the OCR tool](./assets/screenshots/cited_pdf_ocr-tool.png)
+
+
+
 ## Document Identity and Versioning
 
 Historical and research documents may change over time.
