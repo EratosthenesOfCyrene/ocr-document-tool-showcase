@@ -189,43 +189,9 @@ This allows document capture and OCR processing to remain separate while preserv
 
 ## Architecture
 
-The application consists of several interacting components:
+![OCR Document Tool project overview](./assets/screenshots/project_overview.png)
 
 
-                    ┌────────────────────────┐
-                    │      Desktop App       │
-                    │        Electron        │
-                    └───────────┬────────────┘
-                                │
-             ┌──────────────────┼──────────────────┐
-             │                  │                  │
-             ▼                  ▼                  ▼
-       OCR Processing      PDF / Image        Citation
-                           Processing          System
-             │                  │                  │
-      ┌──────┼──────┐           │           Microsoft Word
-      │      │      │           │              Add-in
-      ▼      ▼      ▼           ▼
-   Paddle  Scribe  Tesseract  Local image
-    OCR      JS       JS      processing
-      │
-      └──────────────┬─────────────────────────────┐
-                     │                             │
-                     ▼                             ▼
-              Local Backends                 REST APIs
-              Python / FastAPI
-                     ▲
-                     │
-               .ocrproject
-                     │
-              ┌──────┴──────┐
-              │ Android App │
-              │   Kotlin    │
-              └─────────────┘
-
-
-
-The architecture separates user interface, OCR processing, document transformation and external integrations into dedicated components.
 
 ## Technologies
 
