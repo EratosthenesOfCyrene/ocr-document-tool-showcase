@@ -222,3 +222,122 @@ The application consists of several interacting components:
               │ Android App │
               │   Kotlin    │
               └─────────────┘
+
+
+
+The architecture separates user interface, OCR processing, document transformation and external integrations into dedicated components.
+
+## Technologies
+
+### Desktop application
+
+- JavaScript
+- HTML5
+- CSS3
+- Electron
+- Node.js
+
+### Backend and document processing
+
+- Python
+- FastAPI
+- REST APIs
+- OpenCV
+- PaddleOCR
+- image-processing services
+
+### OCR
+
+- PaddleOCR
+- Scribe.js
+- Tesseract.js
+
+### Mobile application
+
+- Kotlin
+- Android
+- Android Studio
+
+### Document integration
+
+- PDF processing
+- Microsoft Office.js
+- Word Add-in
+- JSON
+- local application APIs
+- custom deep links
+
+### Development and architecture
+
+- Git / GitHub
+- REST-based communication
+- asynchronous processing
+- document identity management
+- data validation
+- versioned project formats
+
+## Technical Challenges
+
+The project involves several problems that go beyond basic OCR.
+
+Examples include:
+
+- coordinating multiple OCR engines
+- evaluating different OCR results
+- processing large documents
+- maintaining page and document identity
+- keeping citations valid when documents change
+- connecting desktop and mobile applications
+- exchanging structured document projects
+- integrating a desktop application with Microsoft Word
+- coordinating multiple local processing services
+- preserving document provenance throughout the workflow
+
+These challenges have required not only implementation work, but also the design of data structures, interfaces and application workflows.
+
+## What I Have Learned
+
+Working on this project has given me practical experience with:
+
+- designing a larger software application
+- breaking complex requirements into separate components
+- frontend and backend communication
+- REST interfaces
+- asynchronous workflows
+- desktop application development with Electron
+- Python backend services
+- OCR and document-processing technologies
+- Android development with Kotlin
+- document metadata and identity
+- versioning concepts
+- integration between independent applications
+- debugging multi-component systems
+- designing software around real user workflows
+
+An important part of the project has been translating problems from practical document work into technical requirements and software functionality.
+
+## Project Context
+
+The project is independently developed and is currently under active development.
+
+It combines my interests and experience in:
+
+- software development
+- document processing
+- archives and historical sources
+- research workflows
+- digitisation
+- OCR
+- digital source referencing
+
+The project may also form the basis for further product development in the future.
+
+## Source Code
+
+The complete source code is intentionally **not publicly available**.
+
+The application is under active development and contains original development work that may form the basis of a future commercial product.
+
+This repository therefore serves exclusively as a public project showcase containing documentation, screenshots and selected architectural information.
+
+Additional technical details or demonstrations can be provided in an appropriate professional context.
