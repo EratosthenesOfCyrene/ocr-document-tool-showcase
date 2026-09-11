@@ -54,6 +54,9 @@ OCR technologies used in the project include:
 - Scribe.js
 - Tesseract.js
 
+  ### Example of text recognition
+  ![Text recognition example](./assets/screenshots/text_recognition_example.png)
+
 ### Document image processing
 
 Before OCR, document images can be prepared and corrected.
