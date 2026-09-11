@@ -75,6 +75,9 @@ Features include:
 
 Several local processing components are used so that document images can be processed without depending entirely on external cloud services.
 
+### Example of manual deskewing
+![Document deskew example](./assets/screenshots/deskew_example.png)
+
 ### PDF processing
 
 The application supports document-oriented PDF workflows, including:
