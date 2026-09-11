@@ -22,9 +22,9 @@ Its goal is to combine several steps that are often handled by separate applicat
 - navigating between text and the original document
 - creating persistent source references
 - connecting document references with Microsoft Word
-- preserving document identity across different versions
+- preserving document identity across different document versions
 
-The application is particularly designed with historical and research-oriented document workflows in mind.
+The application is particularly designed with research-oriented document workflows in mind.
 
 ## Preview
 
@@ -104,7 +104,7 @@ A central part of the project is a citation system for digital source material.
 
 Users can create references to specific locations inside a document.
 
-A citation can contain information such as:
+A citation contains the following informations:
 
 - document identity
 - page
