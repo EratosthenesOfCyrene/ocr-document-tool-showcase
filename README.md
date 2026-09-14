@@ -1,4 +1,4 @@
-# OCR & Document Research Tool
+<img width="3833" height="5381" alt="Jean-Marie Mayer" src="https://github.com/user-attachments/assets/8c4c1629-db1a-4222-8fe2-0d82a9f2b0c6" /># OCR & Document Research Tool
 
 A desktop and mobile software project for OCR, document processing, source referencing and research-oriented document workflows.
 
@@ -113,21 +113,14 @@ The aim is not only to extract text, but also to make OCR results easier to insp
 ### List of the word frequency within the analyzed text
 ![Word frequency list](./assets/screenshots/word_frequency_list.png)
 
+
 ## Citation and Source Reference Workflow
 
 A central part of the project is a citation system for digital source material.
 
-Users can create references to specific locations inside a document.
+Users can create persistent references to specific locations within a document and later reopen the corresponding source location directly in the OCR application.
 
-A citation contains the following informations:
-
-- document identity
-- page
-- selected text
-- coordinates within the document
-- contextual text
-- source version
-- persistent citation identifier
+The workflow is designed to connect recognised text, the original document and the research context while preserving a reliable link back to the source.
 
 These references can later be reopened directly inside the OCR application.
 
@@ -137,15 +130,7 @@ The project includes a Microsoft Word Add-in that connects written documents wit
 
 This allows a source reference created in the OCR tool to be linked with a citation in Word.
 
-The workflow is designed so that a user can move from a citation in a written document back to the corresponding location in the original source.
-
-The integration uses:
-
-- Microsoft Office.js
-- local application communication
-- persistent citation anchors
-- deep links
-- a local citation backend
+The integration is implemented using Microsoft Office.js and communication between the Word Add-in and the desktop application.
 
 ### Word add-in
 ![Microsoft Word add-in](./assets/screenshots/word_addin.png)
@@ -161,32 +146,25 @@ Historical and research documents may change over time.
 
 Pages can be inserted, removed, reordered or replaced while references to the document already exist.
 
-The project therefore includes a document identity and versioning concept.
+The application therefore includes a document identity and versioning concept designed to preserve reliable references across changing document versions.
 
-Documents can be identified using several properties, including:
-
-- persistent document IDs
-- file hashes
-- PDF identifiers
-- page-level text fingerprints
-- visual characteristics
-- original page information
+This requires the application to distinguish between documents, document versions and individual pages while maintaining the relationship between existing source references and the underlying material.
 
 The long-term goal is to keep source references usable even when a document is replaced by a modified version.
 
-## Mobile Document Capture
+The detailed matching and identification mechanisms are part of the private implementation.
 
-The project also includes an Android application for capturing source material with a smartphone.
 
-The mobile workflow supports:
 
-- creation of capture projects
-- multi-page document photography
-- four-point page cropping
-- correction of captured pages
-- page ordering
-- preservation of original images
-- export of complete capture projects
+## `.ocrproject` Exchange Format
+
+The desktop and mobile components exchange document projects through a dedicated project format.
+
+The format preserves the structure of a capture project together with the information required for continued processing on the desktop application.
+
+This allows document capture and OCR processing to remain separate while maintaining project structure and source provenance.
+
+The detailed format specification and internal data model are intentionally not part of this public showcase.
 
 The mobile application intentionally focuses on document capture rather than performing OCR directly on the phone.
 
@@ -344,5 +322,7 @@ The complete source code is intentionally **not publicly available**.
 The application is under active development and contains original development work that may form the basis of a future commercial product.
 
 This repository therefore serves exclusively as a public project showcase containing documentation, screenshots and selected architectural information.
+
+Implementation details, internal data models, algorithms and format specifications are maintained in the private development repository.
 
 Additional technical details or demonstrations can be provided in an appropriate professional context.
