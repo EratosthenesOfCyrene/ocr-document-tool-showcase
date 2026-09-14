@@ -186,23 +186,7 @@ Captured projects can then be transferred to the desktop application for further
 ![Taking a document photo with the Android app](./assets/screenshots/android_app_take_photo.jpg)
 
 
-## `.ocrproject` Exchange Format
 
-Desktop and mobile components exchange document projects using a dedicated project format.
-
-An `.ocrproject` package can contain:
-
-- project metadata
-- page order
-- stable page identifiers
-- original images
-- corrected page images
-- crop information
-- processing settings
-- recognition settings
-- integrity information
-
-This allows document capture and OCR processing to remain separate while preserving the structure and provenance of the source material.
 
 ## Architecture
 
