@@ -1,4 +1,4 @@
-<img width="3833" height="5381" alt="Jean-Marie Mayer" src="https://github.com/user-attachments/assets/8c4c1629-db1a-4222-8fe2-0d82a9f2b0c6" /># OCR & Document Research Tool
+# OCR & Document Research Tool
 
 A desktop and mobile software project for OCR, document processing, source referencing and research-oriented document workflows.
 
