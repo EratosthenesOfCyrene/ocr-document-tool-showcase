@@ -162,13 +162,13 @@ Captured projects can then be transferred to the desktop application for further
 ### Android app overview
 ![Android app main screen](./assets/screenshots/android_app_main.jpg)
 
-### Android app project overview
+<!--   ### Android app project overview
 
 ![Android app project overview](./assets/screenshots/android_app_project.jpg)
 
 ### List of images in a project
 
-![Images within an Android app project](./assets/screenshots/android_app_project_images.jpg)
+![Images within an Android app project](./assets/screenshots/android_app_project_images.jpg)   -->
 
 ### Taking a photo 
 
