@@ -124,7 +124,7 @@ The integration demonstrates communication between the desktop application and a
 ### Word add-in
 ![Microsoft Word add-in](./assets/screenshots/word_addin.png)
 
-### Links opened in the OCR & Document Research Tool
+<!--  ### Links opened in the OCR & Document Research Tool  -->
 <!--![Cited PDF in the OCR tool](./assets/screenshots/cited_pdf_ocr-tool.png) -->
 
 
