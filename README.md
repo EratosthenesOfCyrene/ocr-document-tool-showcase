@@ -176,11 +176,11 @@ Captured projects can then be transferred to the desktop application for further
 
 
 
-
+<!--
 ## Architecture
 
 ![OCR Document Tool project overview](./assets/screenshots/project_overview.png)
-
+-->
 
 
 ## Technologies
