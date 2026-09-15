@@ -11,20 +11,16 @@ The application itself is under active development and its source code is mainta
 
 The project started as an OCR application for analysing PDF and image documents and has gradually developed into a broader document-processing system.
 
-Its goal is to combine several steps that are often handled by separate applications:
+Its current scope includes:
 
-- importing PDF and image documents
-- capturing documents with a mobile device
-- improving and correcting document images
-- performing OCR with different recognition engines
-- comparing and evaluating OCR results
-- analysing recognised text
-- navigating between text and the original document
-- creating persistent source references
-- connecting document references with Microsoft Word
-- preserving document identity across different document versions
+- importing and processing PDF and image documents
+- OCR using multiple recognition engines
+- image preprocessing and correction
+- analysis and review of recognised text
+- document navigation and structured workflows
+- integration with complementary desktop and mobile components
 
-The application is particularly designed with research-oriented document workflows in mind.
+The application is designed with research-oriented document workflows in mind.
 
 ## Preview
 
