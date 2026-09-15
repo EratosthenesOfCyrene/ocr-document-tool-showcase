@@ -1,11 +1,11 @@
 # OCR & Document Research Tool
 
-A desktop and mobile software project for OCR, document processing, source referencing and research-oriented document workflows.
+A software project focused on OCR, document processing and the practical use of digitised material in research-oriented workflows.
 
-The application is designed to support the complete workflow from capturing or importing documents to OCR processing, text analysis, document navigation and reusable source references.
+The project combines several technologies for working with PDF and image documents across desktop and mobile components.
 
-This repository is a **public showcase** of the project.  
-The application itself is under active development and its source code is maintained in a private repository.
+This repository is a **public showcase** of selected aspects of the project.  
+The complete implementation and source code are maintained privately.
 
 ## Project Overview
 
