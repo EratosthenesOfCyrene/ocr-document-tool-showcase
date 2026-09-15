@@ -297,16 +297,6 @@ It combines my interests and experience in:
 - OCR
 - digital source referencing
 
-The project may also form the basis for further product development in the future.
+The project is independently developed and remains under active development.
 
-## Source Code
 
-The complete source code is intentionally **not publicly available**.
-
-The application is under active development and contains original development work that may form the basis of a future commercial product.
-
-This repository therefore serves exclusively as a public project showcase containing documentation, screenshots and selected architectural information.
-
-Implementation details, internal data models, algorithms and format specifications are maintained in the private development repository.
-
-Additional technical details or demonstrations can be provided in an appropriate professional context.
