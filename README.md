@@ -110,24 +110,17 @@ The aim is not only to extract text, but also to make OCR results easier to insp
 ![Word frequency list](./assets/screenshots/word_frequency_list.png)
 
 
-## Citation and Source Reference Workflow
+## Document Integration
 
-A central part of the project is a citation system for digital source material.
+The project includes functionality for connecting document-processing workflows with external applications.
 
-Users can create persistent references to specific locations within a document and later reopen the corresponding source location directly in the OCR application.
-
-The workflow is designed to connect recognised text, the original document and the research context while preserving a reliable link back to the source.
-
-These references can later be reopened directly inside the OCR application.
+This allows recognised and processed document content to be used beyond the OCR application itself while keeping the individual software components clearly separated.
 
 ### Microsoft Word Integration
 
-The project includes a Microsoft Word Add-in that connects written documents with the OCR application.
+The application includes an integration with Microsoft Word based on Microsoft Office.js.
 
-This allows a source reference created in the OCR tool to be linked with a citation in Word.
-
-The integration is implemented using Microsoft Office.js and communication between the Word Add-in and the desktop application.
-
+The integration demonstrates communication between the desktop application and an external productivity application and forms part of the project's broader document-processing architecture.
 ### Word add-in
 ![Microsoft Word add-in](./assets/screenshots/word_addin.png)
 
